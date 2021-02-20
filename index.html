@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>suma y resta</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3>ejercicio de la edad</h3>
+        <script src="main.js"></script>
+        <script> fetch ("ejercicio.son")
+        .then (response=> response.json())
+        .then(data=>{
+                console.log(data)
+                document.querySelector("test").innertext=data.nombre
+        })
+ 
+
+
+        </script>
+    </body>
+
+
+
+
+</html>
